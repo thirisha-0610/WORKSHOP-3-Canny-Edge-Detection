@@ -1,7 +1,7 @@
 # WORKSHOP-3-Canny-Edge-Detection
 
-# Name : T.Roshini
-# Reg No : 212223230175
+# Name : Thirisha A
+# Reg No : 212223040228
 
 
 # CODE :
@@ -9,7 +9,7 @@
 import cv2
 import matplotlib.pyplot as plt
 # Read the image
-img = cv2.imread('photo.jpeg',cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('3sha.jpeg',cv2.IMREAD_GRAYSCALE)
 # Apply Gaussian blur to reduce noise
 blurred =cv2.GaussianBlur(img, (5,5),0)
 # Detect edges using Canny
@@ -24,5 +24,6 @@ plt.show()
 
 ```
 # OUTPUT :
-<img width="691" height="383" alt="image" src="https://github.com/user-attachments/assets/f2bb0dcb-0132-4bfc-ba2a-fd2b1a23b9cb" />
+
+<img width="691" height="395" alt="image" src="https://github.com/user-attachments/assets/3fe9e54d-29b0-4208-9ec6-bfc290b2f135" />
 
